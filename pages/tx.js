@@ -1,21 +1,14 @@
 import React from 'react'
 import Layout from '../components/layout/Layout';
 import ColumnContainer from '../components/containers/ColumnContainer';
+import TxTable from '../components/tx/TxTable';
 
-
-const Home = () => (
+const Tx = () => (
   <Layout>
     <ColumnContainer>
-      <h2 style={ styles.title }>Smart Contract Event Watcher</h2>
+      <TxTable/>
     </ColumnContainer>
   </Layout>
 )
 
-const styles = {
-  title: {
-    color: 'grey',
-    fontWeight: 'normal'
-  }
-}
-
-export default Home
+export default Tx
