@@ -1,0 +1,16 @@
+{
+  "name": "create-next-example-app",
+  "scripts": {
+    "dev-server": "node ./server",
+    "eth-listener": "node ./core",
+    "dev": "npm run dev-server & npm run eth-listener",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "next": "9.0.1",
+    "react": "16.8.6",
+    "react-dom": "16.8.6"
+  }
+}
