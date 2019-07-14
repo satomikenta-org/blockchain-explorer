@@ -1,4 +1,8 @@
 
+@pre-requisite
+$ npm i 
+$ cd core && npm i
+
 @ Development
 start next.js and eth-listener
 $ npm run dev
